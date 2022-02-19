@@ -52,6 +52,10 @@ body{
     font-size: 16px;
     font-family: 'Karla', sans-serif;
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: 'DM Serif Display', serif;
+
+}
 .container{
     max-width: 1200px;
     margin: 10px auto;
@@ -67,7 +71,7 @@ body{
 .header h1{
     font-size: 28px;
     color:#2D2640 ;
-    font-family: 'DM Serif Display', serif;
+    /* font-family: 'DM Serif Display', serif; */
 
 }
 .navbar a{
@@ -176,7 +180,7 @@ body{
     margin-bottom: 40px;
 }
 .col{
-    width: 100%;
+    flex:0 1 30%;
 }
 .icon{
     font-size: 20px;
@@ -238,12 +242,21 @@ margin-left: 20px;
 
 }
 /* footer design */
+.footer .container{
+    border-bottom: 1px solid #706D76;
+    padding: 0;
+}
 .footer{
     background-color: #2D2640;
     color: #fff;
     padding: 20px;
     text-align: center;
     font-size: 20px;
+    margin-top: 60px;
+}
+.social a{
+    color: #706D76;
+    font-size: 24px;
 }
 .flex{
     display: flex;
